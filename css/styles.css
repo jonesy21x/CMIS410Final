@@ -1,0 +1,175 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author:   Cam Jones
+   Date:     11/14
+   
+  
+
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(222, 255, 184);
+}
+
+#container {
+    width: 935px;
+    border-width: 2px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+header {
+    width: 910px; /* reduced by 20px to accommodate shadow */
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: left;
+    border: 1px solid #888888;
+    box-shadow: 15px 15px 5px 0 #888888;
+    background-color: rgb(3, 84, 66);
+}
+
+nav {
+    width: 200px;
+    margin: 0 5px 0 5px; 
+    padding: 25px 10px 0 10px;
+    float: left;
+    text-align: center;
+    
+}
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+    nav ul li a {
+        background-color: rgb(3, 84, 66);
+        border: 2px solid;
+        border-block-color: black;
+        padding: 5px;
+        color: rgb(255, 193, 87);
+        text-decoration: double;
+        display: block;
+    }
+
+nav ul li a:hover {
+    background: green;
+    border-radius: 10px;
+    color: white;
+}
+
+#main {
+    width: 446px;
+    padding: 10px;
+    float: left;
+    color: black;
+    border-left: 2px solid;
+    border-right: 2px solid;    
+    background-color: white; 
+}
+
+#main p {
+    text-indent: 1.5em;
+}
+
+figure{
+    padding-top: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+aside {
+    width: 200px;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+    float: right;
+   
+}
+
+aside p {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+h2 {
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    text-align: left;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+footer {
+    width: 910px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(3, 84, 66);
+    clear: both;
+    color: rgb(255, 193, 87);
+    font-weight: bold;
+    text-align: center;
+}
+
+#wrapper {
+    width: 930px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    
+}/* navigation for footer */
+footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Table Cell Styles */
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+table {
+    background: white;
+    border: 15px outset rgb(3, 84, 66);
+    font-size: 0.75em;
+    width: 100%;
+}
+table caption {
+        caption-side: bottom;
+        text-align: right;
+        font-style:italic;
+        font-size: 1.5em;
+    }
+tr:nth-child(even) {
+    background-color: lightgoldenrodyellow;
+}
