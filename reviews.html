@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- 
+		Final Project CMIS 410
+		Author: Cam Jones
+		Date: 11/14
+		
+		These web pages are for educational purposes only, all content should be considered fictional. 
+	
+	-->
+
+<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8"/>
+<title>Jones Mowing Company</title>
+   <link href="css/styles.css" rel="stylesheet"/>
+
+
+</head>
+
+<body>
+
+<div id = "container"> 
+
+<header> 
+
+<a href="index.html"><img src="images/LongLogo.png" alt="JMCompany Logo"
+       width="935">
+	</a>
+
+</header> 
+
+<div id = "wrapper">
+		 
+<nav> 
+	<ul>
+	  <li><a href = "index.html">Home</a></li>
+	  <li><a href = "pricing.html">Pricing Options</a></li>
+	  <li><a href = "reviews.html">Customer Reviews</a></li>
+	  <li><a href = "contact.html">Contact Us</a></li>
+	</ul>
+</nav> 
+	 
+<article id="main">
+
+	<h2>Customer Reviews</h2>
+	<p>We value our customer feedback and hope to learn/grow from all of what we receive. Please leave us a review of your experience so both your fellow customers and lawn care proffesionals can hear about it! </p>
+
+	<h3>Review Form</h3>
+	<form id="survey" action="http://www.example.com/redball/survey" method="post">
+		<fieldset id="custInfo">
+			<legend>Customer Information</legend>
+
+			<div class="formRow">
+				<label for="name">Name*</label>
+				<input name="custName" id="name" type="text" placeholder="first and last name" />
+			</div>
+
+			<div class="formRow">
+				<label for="street">Street address</label>
+				<input name="custStreet" id="street" type="text" />
+			</div>
+
+			<div class="formRow">
+				<label for="city">City</label>
+				<input name="custCity" id="city" type="text" value="Aurora" />
+			</div>
+
+			<div class="formRow">
+				<label for="state">State</label>
+				<input name="custState" id="state" type="text" value="NE" />
+			</div>
+
+			<div class="formRow">
+				<label for="zip">Postal Code</label>
+				<input name="custZip" id="Zip" type="text" placeholder="xxxxx" />
+			</div>
+
+			<div class="formRow">
+				<label for="phone">Phone Number</label>
+				<input name="custPhone" id="phone" type="tel" placeholder="(402) nnn-nnnn" />
+			</div>
+
+			<div class="formRow">
+				<label for="mail">Email*</label>
+				<input name="custEmail" id="mail" type="email" />
+			</div>
+
+			<input name="mailMe" id="maileCB" value="yes" type="checkbox" />
+			<label for"mailCB">Subscribe to our mailing list for great deals and Discounts!</label>
+
+			<div class="formRow">
+				<label for="how">How did you find us? </label>
+				<select name="serviceType" id="service">
+					<option value="order1" selected>Social Media</option>
+					<option value="order2">Word of Mouth</option>
+					<option value="order3">Newspaper</option>
+					<option value="order4">Posters</option>
+					<option value="order5">Newsletter</option>
+					<option value="order6">Other</option>
+				</select>
+			</div>
+
+		</fieldset>
+
+		<fieldset id="expInfo">
+			<legend>Let us know how we did!</legend>
+
+			<div class="formRow">
+				<label for="visit">Date of Service</label>
+				<input name="serviceDate" id="service" type="date" />
+			</div>
+
+			<div class="formRow">
+				<label for="service">Service Type</label>
+				<select name="serviceType" id="service">
+					<option value="order1" selected>Grass Cutting</option>
+					<option value="order2">String Trimmer</option>
+					<option value="order3">Leaf Blower</option>
+					<option value="order4">Stump Removal</option>
+					<option value="order5">Aerate</option>
+					<option value="order6">Fertilizer</option>
+					<option value="order7">Weed Spray</option>
+					<option value="order8">Multiple Services</option>
+				</select>
+			</div>
+
+			<div class="formRow">
+				<label>Were your service pros friendly?</label>
+				<fieldset class="optGroup">
+					<label for="fYes">Yes</label>
+					<input name="sFriend" id="fYes" value="yes" type="radio" />
+					<label for="fNo">No</label>
+					<input name="sFriend" id="fNo" value="no" type="radio" />
+				</fieldset>
+			</div>
+
+			<div class="formRow">
+				<label>Was your service completed?</label>
+				<fieldset class="optGroup">
+					<label for="cYes">Yes</label>
+					<input name="oComplete" id="cYes" value="yes" type="radio" />
+					<label for="cNo">No</label>
+					<input name="oComplete" id="cNo" value="no" type="radio" />
+				</fieldset>
+			</div>
+
+			<div class="formRow">
+				<label>Was your service done in a timely manner?</label>
+				<fieldset class="optGroup">
+					<label for="hYes">Yes</label>
+					<input name="timeFast" id="hYes" value="yes" type="radio" />
+					<label for="hNo">No</label>
+					<input name="timeFast" id="hNo" value="no" type="radio" />
+				</fieldset>
+			</div>
+
+			<div class="formRow">
+				<label for="rangeBox">Rate the overall service<br /> (0=needs work; 10=amazing)</label>
+				0
+				<input name="serviceRate" id="rangeBox" type="range" value="5" step="1" min="0" max="10" />
+				10
+			</div>
+
+			<label for="commBox">Tell us more about your time with Jones Mowing Company!</label>
+			<textarea name="custExp" id="commBox"></textarea>
+
+		</fieldset>
+
+		<div id="buttons">
+			<input type="submit" value="Submit My Survey" />
+			<input type="reset" value="Cancel" />
+		</div>
+
+	</form>
+
+
+</article> <!-- end main -->
+
+<aside> 
+
+<h3>Operating Hours</h3>
+
+<p>Monday: 9 a.m. - 5 p.m.</p>
+<p>Tuesday: 9 a.m. - 5 p.m.</p>
+	<p>Wednesday:  9 a.m. - 5 p.m.</p>
+	<p>Thursday: 9 a.m. - 5 p.m.</p>
+	<p>Friday: 9 a.m. - 5 p.m.</p>
+	<p>Saturday: 10 a.m. - 4 p.m.</p>
+	<p>Sunday: 12 p.m - 3 p.m.</p>
+
+<figure>
+  <img src = "images/image.webp" alt = "Red push mower going around a curve of unmowed grass"
+	   width="200"/>
+	   
+
+  <figcaption>
+    Feel free to let us know all about your lawn care experience with our team of proffesionals! We look forward to hearing what all our customers have to say and hope to sustain continued improvement based on the results.
+  </figcaption> 
+</figure>
+
+</aside>   
+
+<footer> 
+
+	<p>
+		Jones Mowing Co.
+		333 Grasscutter Ave. &bull; Aurora, NE 68818
+		<a href="https://facebook.com" target="_blank">Facebook</a> | <a href="https://www.twitter.com" target="_blank">Twitter</a> | <a href="https://www.google.com/maps/@40.8665455,-98.0231796,14z" target="_blank">Directions</a> | <a href="mailto:JonesMowing@yahoo.com">Email US</a>
+	</p>
+
+</footer>  
+
+</div> <!-- end wrapper --> 
+</div> <!-- end container -->
+
+</body>
+</html>
