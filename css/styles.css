@@ -175,7 +175,6 @@ tr:nth-child(even) {
 }
 
 /* Form Layout Styles */
-
 form#survey {
     display: -webkit-flex;
     display: flex;
