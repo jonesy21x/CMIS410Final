@@ -251,7 +251,8 @@ input[type=text], select, textarea {
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: vertical */
+    resize: vertical ;
+
 }
 
 /* Style the submit button with a specific background color etc */
@@ -279,4 +280,3 @@ input[type=submit] {
 }
 
 
-}
